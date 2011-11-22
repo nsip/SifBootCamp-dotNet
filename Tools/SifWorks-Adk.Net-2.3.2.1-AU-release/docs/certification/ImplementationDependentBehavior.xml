@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><ImplementationDependentBehavior xmlns="http://namespaces.sifinfo.org/compliance/csq">
+    <AgentSupportsProtocol>HTTPS HTTP</AgentSupportsProtocol>
+    <AgentSupportsMode>Push Pull</AgentSupportsMode>
+    <AgentSSLSendSupport>TLS_1_0_Via_SSL_2_0 SSL_3_0_Via_SSL_2_0</AgentSSLSendSupport>
+    <AgentSSLReceiveSupport>TLS_1_0 SSL_3_0 TLS_1_0_Via_SSL_2_0 SSL_3_0_Via_SSL_2_0</AgentSSLReceiveSupport>
+    <AgentCanReturnClientCertificates>true</AgentCanReturnClientCertificates>
+    <AgentSpecifiesExplicitAuthenticationLevels>1 2 3</AgentSpecifiesExplicitAuthenticationLevels>
+    <AgentAuthenticatesServerCertificates>1 2 3</AgentAuthenticatesServerCertificates>
+    <AgentRequiresZISClientCertificates>1 2 3</AgentRequiresZISClientCertificates>
+    <AgentSupportsEncryptionLevels>1 2 3 4</AgentSupportsEncryptionLevels>
+    <AgentSpecifiesExplicitDeliveryEncryptionLevels>1 2 3 4</AgentSpecifiesExplicitDeliveryEncryptionLevels>
+    <AgentRequiresZISEncryptionLevels>1 2 3 4</AgentRequiresZISEncryptionLevels>
+    <AgentCanValidateIncomingMessages>true</AgentCanValidateIncomingMessages>
+    <AgentMinimumSIF_MaxBufferSize>4096</AgentMinimumSIF_MaxBufferSize>
+    <AgentMaximumSIF_MaxBufferSize>1048576</AgentMaximumSIF_MaxBufferSize>
+    <AgentDeletesMessageOnNonTransportErrors>true</AgentDeletesMessageOnNonTransportErrors>
+    <AgentSupportsUnicode>true</AgentSupportsUnicode>
+</ImplementationDependentBehavior>
