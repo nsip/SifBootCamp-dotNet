@@ -1,0 +1,51 @@
+
+SIFWorks ZIS Developer Edition
+------------------------------
+
+The SIFWorks ADK for Java includes a license to the SIFWorks Enterprise 
+ZIS Developer Edition. The Developer Edition is restricted to in-house use 
+within your organization only and is provided to aid in the development and 
+testing of SIF Agent software. 
+
+To download the latest version of the zone integration server (ZIS), 
+visit our Customer Support website by browsing to www.edustructures.com 
+and clicking the Support link at the top of any page. 
+To sign-in, enter your customer account number and e-mail address. 
+You should have received this information in an e-mail from Edustructures; 
+if not, please contact us at 1-877-790-1261 or at support@edustructures.com.
+
+After installing SIFWorks, you will need to copy a license file 
+into the SIFWorks directory to start the server. 
+Your license is named adk.swx and is found in the directory 
+where you installed the ADK. 
+Copy this file into the SIFWorks installation directory. 
+
+To start the SIFWorks ZIS:
+
+(1) Run the sifworks.cmd batch file from the SIFWorks directory 
+    (on the Windows platform you can also start the SIFWorks ZIS service 
+    from the service manager, if you installed ZIS as a service). 
+    For other operating systems, please refer to the (ZIS) SIFWorks Installation Guide 
+    available from the Customer Support website. 
+
+
+(2) Open the SIFWorks Administration Console by launching Internet Explorer 
+    and browsing to the following URL
+
+        http://localhost:7003/index.jsp
+
+(3) When prompted, enter the following license key:
+
+	SIKAOPByI8xxs
+
+
+(4) Use 'admin' (without the quotes) as the User Name and Password, 
+    at the SIFWorks Administration Console login.
+
+(5) Create one or more zones.
+
+(6) Add one or more agents to each zone.
+
+Edustructures
+www.edustructures.com
+1-877-790-1261
